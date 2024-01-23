@@ -1,6 +1,11 @@
-import React from 'react';
-import Header from './Header';
-import Navigation from './Navigation';
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import AboutMe from './sections/AboutMe';
+import Portfolio from './sections/Portfolio';
+import Contact from './sections/Contact';
+import Resume from './sections/Resume';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,12 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+
       </div>
       <h1>Vite + React</h1>
       <div className="card">
