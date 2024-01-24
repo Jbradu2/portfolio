@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styled from 'styled-components';
 
 
@@ -26,7 +26,7 @@ const ProjectWrapper = styled.div`
   }
 `;
 //diffrent links/info
-const Project = ({ title, image, deployedLink, githubLink }) => {
+const Project = () => {
   return (
     <ProjectWrapper className="project">
       {/*project dets */}

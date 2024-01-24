@@ -22,9 +22,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-   //need to add submission logic for form...
-  };
-
+  console.log('Form Data Submitted:', formData);
+  setFormData({
+    name: '',
+    email: '',
+    message: '',
+  });
+};
   return (
     <ContactWrapper>
       <h2>Contact</h2>
