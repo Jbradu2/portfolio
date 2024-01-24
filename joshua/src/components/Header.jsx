@@ -17,9 +17,9 @@ const HeaderWrapper = styled.header`
 
 const Header = () => {
   return (
-    <header>
+    <HeaderWrapper>
     <h1>Joshua Bradshaw</h1>
-    </header>
+    </HeaderWrapper>
   );
 };
 
