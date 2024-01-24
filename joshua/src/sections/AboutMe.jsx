@@ -1,9 +1,15 @@
-// src/sections/AboutMe.jsx
 import React from 'react';
 import styled from 'styled-components';
 
 const AboutMeWrapper = styled.section`
   padding: 20px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
 `;
 
 const AboutMe = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from '.styled-components';
 
 const HeaderWrapper = styled.header`
   background-color: red;
@@ -18,7 +18,7 @@ const HeaderWrapper = styled.header`
 const Header = () => {
   return (
     <header>
-     <h1>Joshua Bradshaw</h1>
+    <h1>Joshua Bradshaw</h1>
     </header>
   );
 };
