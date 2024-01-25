@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from "./App.jsx"
 import './index.css'
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -42,9 +42,9 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-ReactDOM.createRoot(document.getElementById('app')).render(
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GlobalStyle />
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
